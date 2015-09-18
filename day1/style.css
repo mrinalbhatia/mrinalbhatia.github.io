@@ -1,0 +1,56 @@
+
+
+body {
+background-color: #486D7F;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border: 5px dotted white;
+}
+
+code {
+    color: #EEF6FF;
+}
+
+.code {
+    text-align:center;
+}
+
+code:hover {
+    color: #90D9FF;
+    font-size: 25px;
+    font-family: Helvetica;, sans-serif
+}
+
+mark {
+    background-color:#486D7F;
+    color: #6CA3BF;
+}
+
+marquee {
+    color: #777B7F;
+    
+}
+
+sub {
+    color: #9BBEE5;
+    font-size: 20px;
+}
+
+
+sup {
+    color: #819FBF;
+    font-size: 18px;
+}
+
+p {
+    color: #B2B9BF;
+    font-size: 18px;
+}
+
+em {
+    color: #819FBF
+}
+
+strong {
+    color: #9BBEE5
+}
