@@ -1,0 +1,15 @@
+body {
+  background-color: #303e59;
+  margin: 10px;
+  }
+  
+p {
+  text-align:right;
+  color:#7c889e;
+  font-size: 18px;
+  font-family:"futura",sans-serif;
+}
+
+p:hover {
+	color:#47889e;
+}
