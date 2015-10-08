@@ -1,0 +1,375 @@
+body {
+  background-color: #4794ac;
+  margin: 40px;
+  }
+  
+
+#flip {
+	font-size: 35px;
+	transform: rotate(-180deg);
+	color:#a8c5d6;
+	font-family:"futura",sans-serif;
+	text-align:left;
+  }
+  
+ h2 {
+  top:30;
+  text-align:right;
+  color:#a8c5d6;
+  font-size: 18px;
+  font-family:"courier";
+  
+}
+
+h2:hover {
+	color:white;
+}
+
+a:link {
+    color: #4794ac;
+}
+
+a:visited {
+    color: #4794ac;
+}
+
+
+div:hover {
+	border:solid 4px white ;
+	width:300px;
+	height:auto;
+	opacity:1;
+	font-size:12px;
+	color:#ffffff;
+	text-align: center;
+	font-family:"futura",sans-serif;
+	overflow:hidden;
+}
+
+.box {
+	width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	overflow:hidden;
+	color: #a8c5d6;
+	margin:5px;
+	position: absolute;
+	top:23%;
+	left:3%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+
+.box1 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	opacity:0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+
+.box2 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	opacity:0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box3 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box4 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	opacity:0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box5 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	opacity:0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box6 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 18%;
+	left: 15%;
+	opacity:0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box7 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 45%;
+	left: 7%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box8 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 38%;
+	left: 38%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box9 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 70%;
+	left: 60%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box10 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 60%;
+	left: 57%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box11 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 43%;
+	left: 72%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box12 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 55%;
+	left: 90%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box13 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box14 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 5%;
+	left: 60%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box15 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	color: #a8c5d6;
+	overflow:hidden;
+	margin:5px;
+	position: absolute;
+	top: 33%;
+	left: 62%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box16 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 27%;
+	left: 55%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box17 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box18 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 63%;
+	left: 17%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box19 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 63%;
+	left: 35%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box20 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box21 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 37%;
+	left: 13%;
+	opacity: 0.8;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+
+.box22 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 34%;
+	left: 18%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box23 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 40%;
+	left: 43%;
+	opacity: 0.6;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.box24 {
+  width:20px;
+	height:20px;
+	background-color:#a8c5d6;
+	margin:5px;
+	position: absolute;
+	top: 36%;
+	left: 57%;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out
+}

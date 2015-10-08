@@ -1,5 +1,5 @@
 body {
-  background-color: #192438;
+  background-color: #3b5670;
   margin: 40px;
   }
   
@@ -11,8 +11,7 @@ body {
 	text-align:left;
   }
   
-
-h2 {
+ h2 {
   top:30;
   text-align:right;
   color:#7c889e;
@@ -25,22 +24,19 @@ h2:hover {
 	color:white;
 }
 
-/* unvisited link */
 a:link {
-    color: #192438;
+    color: #3b5670;
 }
 
-/* visited link */
 a:visited {
-    color: #192438;
+    color: #3b5670;
 }
-
 div:hover {
 	border:solid 4px white ;
 	width:300px;
-	height:auto;
-	font-size:15px;
+	height:autp;
 	opacity:1;
+	font-size:12px;
 	color:#ffffff;
 	text-align: center;
 	font-family:"futura",sans-serif;
@@ -59,7 +55,6 @@ div:hover {
 	left:3%;
 	transition: width 300ms ease-in-out, height 300ms ease-in-out;
 }
-
 
 .box1 {
   width:20px;
@@ -121,17 +116,14 @@ div:hover {
   width:20px;
 	height:20px;
 	background-color:#7c889e;
+	color: #7c889e;
+	overflow:hidden;
 	margin:5px;
 	position: absolute;
 	top: 30%;
 	left: 5%;
 	opacity:0.3;
-}
-
-.box5:hover {
-	background-color:white;
-	width:40px;
-	height:40px;
+	transition: width 300ms ease-in-out, height 300ms ease-in-out;
 }
 
 .box6 {
@@ -275,10 +267,8 @@ div:hover {
   width:20px;
 	height:20px;
 	background-color:#7c889e;
-	color: #7c889e;
 	margin:5px;
 	position: absolute;
-	overflow:hidden;
 	top: 27%;
 	left: 55%;
 	opacity: 0.3;
@@ -289,10 +279,8 @@ div:hover {
   width:20px;
 	height:20px;
 	background-color:#7c889e;
-	color: #7c889e;
 	margin:5px;
 	position: absolute;
-	overflow:hidden;
 	top: 70%;
 	left: 15%;
 	opacity: 0.3;
@@ -303,10 +291,8 @@ div:hover {
   width:20px;
 	height:20px;
 	background-color:#7c889e;
-	color: #7c889e;
 	margin:5px;
 	position: absolute;
-	overflow:hidden;
 	top: 63%;
 	left: 17%;
 	opacity: 0.6;
@@ -317,274 +303,10 @@ div:hover {
   width:20px;
 	height:20px;
 	background-color:#7c889e;
-	color: #7c889e;
 	margin:5px;
 	position: absolute;
-	overflow:hidden;
 	top: 63%;
 	left: 35%;
 	opacity: 0.6;
 	transition: width 300ms ease-in-out, height 300ms ease-in-out;
 }
-
-.box20 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	margin:5px;
-	position: absolute;
-	top: 58%;
-	left: 50%;
-}
-
-.box20:hover {
-	background-color:white;
-	width:40px;
-	height:40px;
-}
-
-.box21 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 37%;
-	left: 13%;
-	opacity: 0.6;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-
-.box22 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 34%;
-	left: 18%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-.box23 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 40%;
-	left: 43%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-.box24 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 36%;
-	left: 57%;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-.box25 {
-  width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 84%;
-	left: 30%;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-.box26 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 75%;
-	left: 80%;
-	opacity: 0.6;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box27 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 40%;
-	left: 82%;
-	opacity: 0.6;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box28 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 21%;
-	left: 45%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box29 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 43%;
-	left: 21%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box30 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	margin:5px;
-	position: absolute;
-	top: 55%;
-	left: 68%;
-	opacity: 0.6;
-}
-
-.box30:hover {
-	background-color:white;
-	width:40px;
-	height:40px;
-}
-
-.box31 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 22%;
-	left: 71%;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box32 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 76%;
-	left: 45%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-.box33 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	margin:5px;
-	position: absolute;
-	top: 59%;
-	left: 76%;
-	opacity: 0.3;
-}
-
-.box33:hover {
-	background-color:white;
-	width:40px;
-	height:40px;
-}
-
-.box34 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 68%;
-	left: 25%;
-	opacity: 0.3;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-}
-
-.box35 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	margin:5px;
-	position: absolute;
-	top: 12%;
-	left: 17%;
-	opacity: 0.6;
-}
-
-.box35:hover {
-	background-color:white;
-	width:40px;
-	height:40px;
-}
-
-.box36 {
-	width:20px;
-	height:20px;
-	background-color:#7c889e;
-	color: #7c889e;
-	margin:5px;
-	position: absolute;
-	overflow:hidden;
-	top: 54%;
-	left: 40%;
-	opacity: 0.6;
-	transition: width 300ms ease-in-out, height 300ms ease-in-out;
-	
-}
-
-
-
-
-
-
-
-
