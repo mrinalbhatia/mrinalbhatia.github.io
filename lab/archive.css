@@ -39,11 +39,35 @@
 	left: 11%;
 }
 
+.circle:hover {
+	width:200px;
+	height:auto;
+	font-size:15px;
+	color:#ffffff;
+	text-align: center;
+	font-family:"futura",sans-serif;
+	overflow:hidden;
+}
+
+.circle25:hover {
+	color:#000000
+}
+
+.circle26:hover {
+	color:#000000
+}
+
+.circle27:hover {
+	color:#000000
+}
+
 .circle {	
 	width:15px;
 	height:15px;
 	z-index: 10;
 	border-radius:50px;
+	overflow:hidden;
+	transition: width 600ms ease-in-out, height 600ms ease-in-out;
 }
 
 
@@ -53,6 +77,7 @@
 	left: 20%;
 	top: 25px;
 	background-color: #fec1cb;
+	color:#fec1cb;
 	z-index: 10;
 }
 
@@ -61,6 +86,7 @@
 	left: 55%;
 	top: 146px;
 	background-color: #fec1cb;
+	color:#fec1cb;
 }
 
 .circle3 {
@@ -68,6 +94,7 @@
 	left: 88%;
 	top: 115px;
 	background-color: #fec1cb;
+	color:#fec1cb;
 }
 
 .circle4 {
@@ -75,6 +102,7 @@
 	left: 20%;
 	top: 260px;
 	background-color: #808080;
+	color:#808080;
 	z-index: 10;
 }
 
@@ -83,6 +111,7 @@
 	left: 55%;
 	top: 260px;
 	background-color: #808080;
+	color:#808080;
 }
 
 .circle6 {
@@ -90,6 +119,7 @@
 	left: 88%;
 	top: 260px;
 	background-color: #808080;
+	color:#808080;
 }
 
 .circle7 {
@@ -97,6 +127,7 @@
 	left: 20%;
 	top: 180px;
 	background-color: #c1dcdb;
+	color:#c1dcdb;
 	z-index: 10;
 }
 
@@ -105,6 +136,7 @@
 	left: 55%;
 	top: 85px;
 	background-color: #c1dcdb;
+	color:#c1dcdb;
 }
 
 .circle9 {
@@ -112,13 +144,15 @@
 	left: 88%;
 	top: 87px;
 	background-color: #c1dcdb;
+	color:#c1dcdb;
 }
 
 .circle10 {
 	position:absolute;
-	left: 20%;
+	left: 22%;
 	top: 180px;
 	background-color: #b1d6ca;
+	color:#b1d6ca;
 	z-index: 10;
 }
 
@@ -127,6 +161,7 @@
 	left: 55%;
 	top: 100px;
 	background-color: #b1d6ca;
+	color:#b1d6ca;
 }
 
 .circle12 {
@@ -134,6 +169,7 @@
 	left: 88%;
 	top: 125px;
 	background-color: #b1d6ca;
+	color:#b1d6ca;
 }
 
 .circle13 {
@@ -141,6 +177,7 @@
 	left: 20%;
 	top: 350px;
 	background-color: #486d7f;
+	color:#486d7f;
 	z-index: 10;
 }
 
@@ -149,6 +186,7 @@
 	left: 55%;
 	top: 305px;
 	background-color: #486d7f;
+	color:#486d7f;
 }
 
 .circle15 {
@@ -156,6 +194,7 @@
 	left: 88%;
 	top: 270px;
 	background-color: #486d7f;
+	color:#486d7f;
 }
 
 .circle16 {
@@ -163,6 +202,7 @@
 	left: 20%;
 	top: 214px;
 	background-color: #99ffcc;
+	color:#99ffcc;
 	z-index: 10;
 }
 
@@ -171,6 +211,7 @@
 	left: 55%;
 	top: 25px;
 	background-color: #99ffcc;
+	color:#99ffcc;
 }
 
 .circle18 {
@@ -178,6 +219,7 @@
 	left: 88%;
 	top: 105px;
 	background-color: #99ffcc;
+	color:#99ffcc;
 }
 
 .circle19 {
@@ -185,6 +227,7 @@
 	left: 20%;
 	top: 400px;
 	background-color: #35fde4;
+	color:#35fde4;
 	z-index: 10;
 }
 
@@ -193,6 +236,7 @@
 	left: 55%;
 	top: 40px;
 	background-color: #35fde4;
+	color:#35fde4;
 }
 
 .circle21 {
@@ -200,12 +244,14 @@
 	left: 88%;
 	top: 70px;
 	background-color: #35fde4;
+	color:#35fde4;
 }
 .circle22 {
 	position:absolute;
 	left: 20%;
 	top: 378px;
 	background-color: #409aa2;
+	color:#409aa2;
 	z-index: 10;
 }
 
@@ -214,6 +260,7 @@
 	left: 55%;
 	top: 205px;
 	background-color: #409aa2;
+	color:#409aa2;
 }
 
 .circle24 {
@@ -221,6 +268,7 @@
 	left: 88%;
 	top: 210px;
 	background-color: #409aa2;
+	color:#409aa2;
 }
 
 .circle25 {
@@ -228,6 +276,7 @@
 	left: 20%;
 	top: 110px;
 	background-color: #efffff;
+	color:#efffff;
 	z-index: 10;
 }
 
@@ -236,6 +285,7 @@
 	left: 57%;
 	top: 25px;
 	background-color: #efffff;
+	color:#efffff;
 }
 
 .circle27 {
@@ -243,6 +293,7 @@
 	left: 88%;
 	top: 25px;
 	background-color: #efffff;
+	color:#efffff;
 }
 
 .circle28 {
@@ -250,6 +301,7 @@
 	left: 20%;
 	top: 230px;
 	background-color: #941621;
+	color:#941621;
 	z-index: 10;
 }
 
@@ -258,6 +310,7 @@
 	left: 55%;
 	top: 466px;
 	background-color: #941621;
+	color:#941621;
 }
 
 .circle30 {
@@ -265,6 +318,7 @@
 	left: 88%;
 	top: 420px;
 	background-color: #941621;
+	color:#941621;
 }
 
 .circle31 {
@@ -272,6 +326,7 @@
 	left: 20%;
 	top:35px;
 	background-color: #fc0c1b;
+	color:#fc0c1b;
 	z-index: 10;
 }
 
@@ -280,6 +335,7 @@
 	left: 55%;
 	top: 486px;
 	background-color: #fc0c1b;
+	color:#fc0c1b;
 }
 
 .circle33 {
@@ -287,6 +343,7 @@
 	left: 88%;
 	top: 450px;
 	background-color: #fc0c1b;
+	color:#fc0c1b;
 }
 
 .circle34 {
@@ -294,6 +351,7 @@
 	left: 20%;
 	top: 45px;
 	background-color: #fd9a40;
+	color:#fd9a40;
 	z-index: 10;
 }
 
@@ -302,6 +360,7 @@
 	left: 57%;
 	top: 205px;
 	background-color: #fd9a40;
+	color:#fd9a40;
 }
 
 .circle36 {
@@ -309,6 +368,7 @@
 	left: 88%;
 	top: 388px;
 	background-color: #fd9a40;
+	color:#fd9a40;
 }
 
 .circle37 {
@@ -316,6 +376,7 @@
 	left: 20%;
 	top: 510px;
 	background-color: #000000;
+	color:#000000;
 	z-index: 10;
 }
 
@@ -324,6 +385,7 @@
 	left: 55%;
 	top: 510px;
 	background-color: #000000;
+	color:#000000;
 }
 
 .circle39 {
@@ -331,4 +393,5 @@
 	left: 88%;
 	top: 510px;
 	background-color: #000000;
+	color:#000000;
 }
