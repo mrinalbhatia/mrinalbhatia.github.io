@@ -40,8 +40,8 @@
 }
 
 .circle {	
-	width:20px;
-	height:20px;
+	width:15px;
+	height:15px;
 	z-index: 10;
 	border-radius:50px;
 }
@@ -51,7 +51,7 @@
 .circle1 {
 	position:absolute;
 	left: 20%;
-	top: 30px;
+	top: 25px;
 	background-color: #fec1cb;
 	z-index: 10;
 }
@@ -59,14 +59,14 @@
 .circle2 {
 	position:absolute;
 	left: 55%;
-	top: 150px;
+	top: 146px;
 	background-color: #fec1cb;
 }
 
 .circle3 {
 	position:absolute;
 	left: 88%;
-	top: 70px;
+	top: 115px;
 	background-color: #fec1cb;
 }
 
@@ -103,14 +103,14 @@
 .circle8 {
 	position:absolute;
 	left: 55%;
-	top: 140px;
+	top: 85px;
 	background-color: #c1dcdb;
 }
 
 .circle9 {
 	position:absolute;
 	left: 88%;
-	top: 130px;
+	top: 87px;
 	background-color: #c1dcdb;
 }
 
@@ -125,14 +125,14 @@
 .circle11 {
 	position:absolute;
 	left: 55%;
-	top: 160px;
+	top: 100px;
 	background-color: #b1d6ca;
 }
 
 .circle12 {
 	position:absolute;
 	left: 88%;
-	top: 160px;
+	top: 125px;
 	background-color: #b1d6ca;
 }
 
@@ -147,14 +147,14 @@
 .circle14 {
 	position:absolute;
 	left: 55%;
-	top: 190px;
+	top: 305px;
 	background-color: #486d7f;
 }
 
 .circle15 {
 	position:absolute;
 	left: 88%;
-	top: 190px;
+	top: 270px;
 	background-color: #486d7f;
 }
 
@@ -169,14 +169,14 @@
 .circle17 {
 	position:absolute;
 	left: 55%;
-	top: 220px;
+	top: 25px;
 	background-color: #99ffcc;
 }
 
 .circle18 {
 	position:absolute;
 	left: 88%;
-	top: 220px;
+	top: 105px;
 	background-color: #99ffcc;
 }
 
@@ -191,14 +191,14 @@
 .circle20 {
 	position:absolute;
 	left: 55%;
-	top: 250px;
+	top: 40px;
 	background-color: #35fde4;
 }
 
 .circle21 {
 	position:absolute;
 	left: 88%;
-	top: 250px;
+	top: 70px;
 	background-color: #35fde4;
 }
 .circle22 {
@@ -212,14 +212,14 @@
 .circle23 {
 	position:absolute;
 	left: 55%;
-	top: 280px;
+	top: 205px;
 	background-color: #409aa2;
 }
 
 .circle24 {
 	position:absolute;
 	left: 88%;
-	top: 280px;
+	top: 210px;
 	background-color: #409aa2;
 }
 
@@ -233,15 +233,15 @@
 
 .circle26 {
 	position:absolute;
-	left: 55%;
-	top: 310px;
+	left: 57%;
+	top: 25px;
 	background-color: #efffff;
 }
 
 .circle27 {
 	position:absolute;
 	left: 88%;
-	top: 310px;
+	top: 25px;
 	background-color: #efffff;
 }
 
@@ -256,21 +256,21 @@
 .circle29 {
 	position:absolute;
 	left: 55%;
-	top: 340px;
+	top: 466px;
 	background-color: #941621;
 }
 
 .circle30 {
 	position:absolute;
 	left: 88%;
-	top: 340px;
+	top: 420px;
 	background-color: #941621;
 }
 
 .circle31 {
 	position:absolute;
 	left: 20%;
-	top:70px;
+	top:35px;
 	background-color: #fc0c1b;
 	z-index: 10;
 }
@@ -278,43 +278,43 @@
 .circle32 {
 	position:absolute;
 	left: 55%;
-	top: 370px;
+	top: 486px;
 	background-color: #fc0c1b;
 }
 
 .circle33 {
 	position:absolute;
 	left: 88%;
-	top: 370px;
+	top: 450px;
 	background-color: #fc0c1b;
 }
 
 .circle34 {
 	position:absolute;
 	left: 20%;
-	top: 50px;
+	top: 45px;
 	background-color: #fd9a40;
 	z-index: 10;
 }
 
 .circle35 {
 	position:absolute;
-	left: 55%;
-	top: 400px;
+	left: 57%;
+	top: 205px;
 	background-color: #fd9a40;
 }
 
 .circle36 {
 	position:absolute;
 	left: 88%;
-	top: 400px;
+	top: 388px;
 	background-color: #fd9a40;
 }
 
 .circle37 {
 	position:absolute;
 	left: 20%;
-	top: 495px;
+	top: 510px;
 	background-color: #000000;
 	z-index: 10;
 }
@@ -322,13 +322,13 @@
 .circle38 {
 	position:absolute;
 	left: 55%;
-	top: 495px;
+	top: 510px;
 	background-color: #000000;
 }
 
 .circle39 {
 	position:absolute;
 	left: 88%;
-	top: 495px;
+	top: 510px;
 	background-color: #000000;
 }
