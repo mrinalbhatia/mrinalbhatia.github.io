@@ -1,7 +1,18 @@
-.container1 {
-	width:auto;
-	height:auto;
-	margin:25px;
+.box-set1 {
+	top:10%;
+	left:10%;
+	position:relative;
+}
+
+.box-set2 {
+	top:20%;
+	left:20%;
+	position:relative;
+}
+
+.box-set3 {
+	top:30%;
+	left:30%;
 	position:relative;
 }
 
@@ -9,6 +20,8 @@
     background-color:black;
 	height: 15px;
 	width: 15px;
+	top:400px;
+	left:400px;
 	display:inline-block;
 	position:absolute;
 }
@@ -294,32 +307,32 @@
 }
 
 .box57 {
-    top: 120px;
+    top: 116px;
     left:328px;
 }
 
 .box58 {
-    top: 105px;
+    top: 101px;
     left:328px;
 }
 
 .box59 {
-    top: 90px;
+    top: 86px;
     left:328px;
 }
 
 .box60 {
-    top: 75px;
+    top: 71px;
     left:330px;
 }
 
 .box61 {
-    top: 60px;
+    top: 56px;
     left:335px;
 }
 
 .box62 {
-    top: 45px;
+    top: 41px;
     left:343px;
 }
 
@@ -346,4 +359,69 @@
 .box67 {
     top: 22px;
     left:418px;
+}
+
+.box68 {
+    top: 30px;
+    left:433px;
+}
+
+.box69 {
+    top: 42px;
+    left:448px;
+}
+
+.box70 {
+    top: 57px;
+    left:457px;
+}
+
+.box71 {
+    top: 131px;
+    left:331px;
+}
+
+.box72 {
+    top: 146px;
+    left:340px;
+}
+
+.box73 {
+    top: 151px;
+    left:355px;
+}
+
+.box74 {
+    top: 155px;
+    left:370px;
+}
+
+.box75 {
+    top: 155px;
+    left:385px;
+}
+
+.box76 {
+    top: 153px;
+    left:400px;
+}
+
+.box77 {
+    top: 149px;
+    left:415px;
+}
+
+.box78 {
+    top: 142px;
+    left:430px;
+}
+
+.box79 {
+    top: 127px;
+    left:445px;
+}
+
+.box80 {
+    top: 112px;
+    left:452px;
 }
