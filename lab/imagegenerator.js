@@ -1,5 +1,9 @@
+$('.boxes').hover (function(){
+    
+});
+
 $(window).click(function() {
-    $(".button").each(function() {
+    $(".boxes").each(function() {
         var topPosition = Math.floor(Math.random()*($(window).height()-100)) + "px";
         var leftPosition = Math.floor(Math.random()*($(window).width()-100)) + "px";
         $(this).css("top",topPosition).css("left",leftPosition);
@@ -8,3 +12,30 @@ $(window).click(function() {
     });
 });
 
+(function makeDiv(){
+   var divsize = ((Math.random()*80) + 50).toFixed();
+   var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
+   $boxes = $('<div/>').addClass("destruct").css({
+       'width':divsize+'px',
+       'height':divsize+'px',
+       'background-color': color
+   });
+
+   var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
+   var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
+
+   $boxes.css({
+       'position':'absolute',
+       'left':posx+'px',
+       'top':posy+'px',
+       'display':'none'
+   }).appendTo( 'body' ).fadeIn(2000, function(){
+      makeDiv(); 
+   }); 
+})();
+
+$(document).ready(function() {
+   $(document).on('mouseover', '.destruct', function(){
+      $(this).css({background: '#ffffff'});
+   });
+});
