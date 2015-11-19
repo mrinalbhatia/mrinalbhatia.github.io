@@ -1,6 +1,4 @@
-$('.boxes').hover (function(){
-    
-});
+
 
 $(window).click(function() {
     $(".boxes").each(function() {
@@ -12,13 +10,15 @@ $(window).click(function() {
     });
 });
 
+
+
 (function makeDiv(){
    var divsize = ((Math.random()*80) + 50).toFixed();
    var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
    $boxes = $('<div/>').addClass("destruct").css({
        'width':divsize+'px',
        'height':divsize+'px',
-       'background-color': color
+       'background-image': 'url(bw/bw1' + '.png)'
    });
 
    var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
@@ -28,7 +28,8 @@ $(window).click(function() {
        'position':'absolute',
        'left':posx+'px',
        'top':posy+'px',
-       'display':'none'
+       'display':'none',
+       'border-radius': '60px'
    }).appendTo( 'body' ).fadeIn(2000, function(){
       makeDiv(); 
    }); 
