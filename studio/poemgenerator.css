@@ -1,0 +1,79 @@
+.wrapper {
+    position:fixed;
+    right:1%;
+}
+
+.words {
+    position:absolute;
+    top:40%;
+    left:8%;
+    text-align:center;
+}
+
+.poem_wrapper {
+    width:1100px;
+    height:auto;
+}
+
+.circles {
+    position:relative;
+    width:90px;
+    height:90px;
+    border:solid black;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+}
+
+.circles:hover {
+   border:solid pink;
+   color:pink;
+}
+
+.circle1 {
+    border:solid red;
+    color:red;
+}
+
+.noun {
+    border:solid red;
+    color:red;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.circle2 {
+    border:solid lime;
+    color:lime;
+}
+
+.circle3 {
+    border:solid blue;
+    color:blue;
+}
+
+.circle4 {
+    border:solid #00ffff;
+    color: #00ffff;
+}
+
+.circle5 {
+    border:solid #ffcc26;
+    color: #ffcc26;
+}
+
+.circle6 {
+    border:solid #ff00ff;
+    color: #ff00ff;
+}
+
+.circle7 {
+    border:solid black;
+}
