@@ -1,3 +1,5 @@
+
+
 .wrapper {
     position:fixed;
     right:1%;
@@ -5,15 +7,25 @@
 
 .words {
     position:absolute;
-    top:40%;
-    left:8%;
-    text-align:center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .poem_wrapper {
-    width:1100px;
+    width:800px;
     height:auto;
 }
+
+.word-wrap { position: relative; }
+.word { 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    
+}
+
 
 .circles {
     position:relative;
@@ -26,19 +38,99 @@
     overflow:hidden;
 }
 
-.circles:hover {
-   border:solid pink;
-   color:pink;
-}
 
 .circle1 {
-    border:solid red;
-    color:red;
+    border:solid #98A5B4;
+    color:#98A5B4;
+}
+
+.circle1:hover {
+   border:solid #5C7796 4px;
+   color:#5C7796;
 }
 
 .noun {
-    border:solid red;
-    color:red;
+    border:solid #98A5B4;
+    color:#98A5B4;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.verb {
+    border:solid #7EB0E7;
+    color:#7EB0E7;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.adjective {
+    border:solid #7A8181;
+    color:#7A8181;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.adverb {
+    border:solid #8E6C63;
+    color:#8E6C63;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+    
+    
+.conjunction{
+    border:solid #B49A98;
+    color:#B49A98;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.pronoun {
+    border:solid #C46C63;
+    color:#C46C63;
+    position:relative;
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    text-align:center;
+    font-family:sans-serif;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.surprise {
+    border:solid black;
+    color:black;
     position:relative;
     width:90px;
     height:90px;
@@ -50,30 +142,66 @@
 }
 
 .circle2 {
-    border:solid lime;
-    color:lime;
+    border:solid #7EB0E7;
+    color:#7EB0E7;
+}
+
+.circle2:hover {
+   border:solid #2F6096 4px;
+   color:#2F6096;
 }
 
 .circle3 {
-    border:solid blue;
-    color:blue;
+    border:solid #7A8181;
+    color:#7A8181;
+}
+
+.circle3:hover {
+   border:solid #6B9696 4px;
+   color:#6B9696;
 }
 
 .circle4 {
-    border:solid #00ffff;
-    color: #00ffff;
+    border:solid #8E6C63;
+    color: #8E6C63;
 }
 
+.circle4:hover {
+   border:solid #965746 4px;
+   color:#965746;
+}
+
+
 .circle5 {
-    border:solid #ffcc26;
-    color: #ffcc26;
+    border:solid #B49A98;
+    color: #B49A98;
+}
+
+.circle5:hover {
+   border:solid #96605C 4px;
+   color:#96605C;
 }
 
 .circle6 {
-    border:solid #ff00ff;
-    color: #ff00ff;
+    border:solid #C46C63;
+    color: #C46C63;
+}
+
+.circle6:hover {
+   border:solid #963329 4px;
+   color:#963329;
 }
 
 .circle7 {
     border:solid black;
+}
+
+.circle7:hover {
+   border:solid black 4px;
+   color:black;
+}
+
+.placeholder {
+    border: dashed;
+    border-color: #000;
 }
