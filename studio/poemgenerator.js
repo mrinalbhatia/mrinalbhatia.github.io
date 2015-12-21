@@ -3,7 +3,7 @@ var array1 = ["time", "number", "people", "water", "oil", "new", "sound", "work"
 var array2 = ["be", "from", "do", "go", "see", "write", "sit", "march", "bought", "determine"];
 var array3 = ["exciting", "interesting", "different" , "kind" , "hard" , "young", "dark", "heavy" , "special", "fine", 
 "hot", "beautiful", "happy", "wild"];
-var array4 = ["pretty", "actually", "especially", "quickly", "suddenly"];
+var array4 = ["pretty", "actually", "especially", "quickly", "suddenly","helpfully"];
 var array5 = ["and", "similarly", "thus", "additionally", "rather" , "for" , "nor", "or", "but", "else" , "maybe" , "perhaps" , "yet" , "also" , "to", "because"];
 var array6 = ["he", "she", "they", "we", "it","we're","them"];
 var array7 = ["!", "&", ",", ";", "?"];
@@ -27,7 +27,7 @@ $(".circle3").click(function() {
 })
 
 $(".circle4").click(function() {
-    var randomNum = Math.round(Math.random() * 4);
+    var randomNum = Math.round(Math.random() * 5);
     console.log(array4[randomNum]);
     $(".poem_wrapper").append("<div class='word-wrap adverb'><span class='word'>" + array4[randomNum] + "</span></div>");
 })
